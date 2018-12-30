@@ -30,7 +30,7 @@ CREATE TABLE x2_users (
     calendarKey            VARCHAR(64),
     UNIQUE(username, emailAddress),
     INDEX (username)
-) COLLATE = utf8_general_ci;
+) COLLATE = utf8_general_ci, ENGINE = InnoDB;
 /*&*/
 ALTER TABLE `x2_calendar_permissions` ADD CONSTRAINT FOREIGN KEY (`userId`) REFERENCES x2_users(`id`) ON UPDATE CASCADE ON DELETE CASCADE;
 /*&*/
