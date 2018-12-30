@@ -189,6 +189,7 @@ $timezones = array(
     'America/La_Paz' => "(GMT-04:00) La Paz",
     'America/Santiago' => "(GMT-04:00) Santiago",
     'Canada/Newfoundland' => "(GMT-03:30) Newfoundland",
+    'America/Sao_Paulo' => "(GMT-03:00) São Paulo",
     'America/Buenos_Aires' => "(GMT-03:00) Buenos Aires",
     'Greenland' => "(GMT-03:00) Greenland",
     'Atlantic/Stanley' => "(GMT-02:00) Stanley",
